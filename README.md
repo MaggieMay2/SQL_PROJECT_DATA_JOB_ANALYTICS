@@ -193,8 +193,23 @@ LIMIT 25;
 | 74 | Azure | 34 | $111,225 |
 | 77 | BigQuery | 13 | $109,654 |
 *Table of the most optimal skills for data analysts sorted by salary*
-Go has the highest average salary among these six skills, despite having fewer demand counts than Snowflake and Azure.
-Snowflake and Azure show relatively high demand in this dataset, making them notable skills to explore.
-The salary figures are relatively close, ranging from approximately $110,000 to $115,000 per year.
+
+- **High-Demand Programming Languages:** Python and R stand out for their high demand,with demand counts of 236 and 148 respectively. Despite their high demand, their average salaries are around $101,397 fpr Python and $100,499 for R,indicating that proficiency in these languages is highly valued but also widely avaliable.
+- **Cloud Tools and Technologies:**Skills in specialized technologies such as Snowflake, Azure, AWS, and BigQuery show significant demand with relatively high average salaries, pointing towards the growing importance of cloud platforms and big data technologies in data analysis.
+- **Business intelligence and Visualisation Tools:** Tableau and Looker, with demand counts 230 and 49 respectively, and average salaries around $99,288 and $103,795 highlights the critical role of data visualization and business intelligence in deriving actionable insights from data.
+- **Dataabase Technologies:** The demand for skills in traditional and NoSQL databases (Oracle,SQL Server, NoSQL) with average salaries ranginf from $97,786 to $104,534, reflects the enduring need for data storage =,retrieval, and management expertise.
+
 # What I Learned
+After finishing the SQL course, I applied everything in my data job analysis project, and it sharpened my skills in three key ways:
+- **Writing complex queries:** I joined multiple tables to bring job postings and skills data together, and used CTEs (WITH clauese) to break big problems into clean, readable steps.
+- **Aggregating data:**I used  GROUP BY with COUNT() and AVG() to summarixe the job market,such as how many roles demand a given skill and what average salaries look like.
+- **Turning questions into insights:** I learned to take real questions, like which skills are most in demand and which pay best, and translate them into SQL queries that produce answers I can act on.
 # Conclusions
+
+### Insights
+From the analysis, several general insights emerged:
+1. **Top-Paying Data Analyst Jobs**: The highest-paying jobs for data analysts that allow remote work offer a wide range of salaries, the highest at $650,000!
+2. **Skills for Top-Paying Jobs**: High-paying data analyst jobs require advanced proficiency in SQL, suggesting it's a critical skill for earning a top salary.
+3. **Most In-Demand Skills**: SQL is also the most demanded skill in Data analyst job market thus making it essential for job seekers.
+4. **Skills with Higher Salaries**:Specialised skills, such as SVN and Solidity, are associated with the highest average salaries, indicating a premium on niche expertise.
+5. **Optimal Skills for Market Value**: SQL leads in demand and offers for a high average salary, positioning it as one of the most optimal skills for data analysts to learn to maximize their market value.
